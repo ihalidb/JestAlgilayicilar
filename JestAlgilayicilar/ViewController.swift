@@ -28,12 +28,10 @@ class ViewController: UIViewController {
     @objc func gorselDegistir(){
         
         if ny == false{
-            
             label.text = "New York"
             imageView.image = UIImage(named: "ny")
             ny = true
         } else {
-            
             label.text = "San Francisco"
             imageView.image = UIImage(named: "sf")
             ny = false
